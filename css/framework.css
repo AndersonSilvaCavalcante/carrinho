@@ -1,0 +1,78 @@
+/*
+	AUTOR: JEFERSON SOUZA
+	PROPRIEDADE DE JS SOLARIS TREINAMENTOS - (c) TODOS OS DIREITOS RESERVADOS
+	http://www.jsjobs.com.br
+*/
+
+/*GERAL*/
+*{padding: 0; margin: 0; border: 0; font-size: 1em; font-family: 'Lato';}
+body{background-color: #eee;}
+img{border: none;}
+h1, h2, h3{word-spacing: 5px;letter-spacing: 1px;}
+
+/*CLASSES GERAIS*/
+.fontzero{font-size: 0em;}
+.clear{clear: both;}
+.espaco{padding: 5% 0%;}
+.espaco-normal{padding: 1% 0%;}
+.espaco-min{padding: 2% 0%;}
+
+/*LINKS*/
+a{text-decoration:none; cursor:pointer;}
+.link-bgcolor-red{padding: 0.5% 2%; background-color: #d4383a;}
+.link-bgcolor-red-dark-b{padding: 1% 2%; background-color: #b71c1c;}
+.link-bgcolor-green-dark-b{padding: 1% 2%; background-color:#009f6a;}
+.link-bgcolor-black{padding: 1% 2%;  background-color: #444;}
+.link-bgcolor-gray{padding: 3% 8%;  background-color: #b6b0ab;}
+.link-bgcolor-white-dark-b{padding: 1% 2%; background-color: #eee;}
+.link-bgcolor-dark-b{padding: 1% 1%; background-color:#3b4a56;}
+.link-bgcolor-dark-full-b{padding: 1% 2%; background-color: #1A242E;}
+
+/*BGCOLOR*/
+.bgcolor-red{background-color: #d4383a;}
+.bgcolor-red-dark{background-color: #b32500;}
+.bgcolor-green-dark{background-color:#009f6a;}
+.bgcolor-gray{background-color: #b6b0ab;}
+.bgcolor-white{background-color: #fff;}
+.bgcolor-white-dark{background-color: #eee;}
+.bgcolor-dark{background-color:#3b4a56;}
+.bgcolor-dark-full{background-color: #1A242E;}
+
+/*COLOR TEXT*/
+.color-black{color: #444;}
+.color-white{color: #fff;}
+.color-dark{color:#3b4a56;}
+.color-dark-full{color: #1A242E;}
+
+/*FONT-SIZE*/
+.font-text-light{font-size: 1em;}
+.font-text-light-extra{font-size: 1.2em;}
+.font-text-hard-two{font-size: 2em;}
+
+/*FONT-WEIGHT*/
+.font-weight-heavy{font-weight:bold;}
+
+@media (max-width: 1260px){	
+.font-text-light-middle{font-size: 1.2em;}	
+.font-text-light-extra{font-size: 1em;}
+}
+
+@media (max-width: 1100px){	
+.font-text-light-middle{font-size: 1em;}
+}
+
+
+/* TEXT ALIGN*/
+
+.text-center{text-align:center;}
+.text-justify{text-align:justify;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+
+/*BORDER*/
+
+.border-1px{border: 1px solid #333;}
+
+/* FLOAT*/
+.float-left{float: left;}
+.float-right{float: right;}
